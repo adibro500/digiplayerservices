@@ -1,4 +1,4 @@
-from models import PlayerMapsTournament
+from .models import PlayerMapsTournament
 from rest_framework import viewsets
 from rest_framework import serializers
 

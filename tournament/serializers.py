@@ -1,4 +1,4 @@
-from models import SurfaceType, TournamentType, Tournament, TournamentPlayingCategory
+from .models import SurfaceType, TournamentType, Tournament, TournamentPlayingCategory
 from rest_framework import serializers
 
 class SurfaceTypeSerializer(serializers.ModelSerializer):

@@ -3,8 +3,8 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 from rest_framework import viewsets
-from serializers import SurfaceTypeSerializer,TournamentSerializer,TournamentPlayingCategorySerializer,TournamentTypeSerializer
-from models import SurfaceType,Tournament,TournamentPlayingCategory,TournamentType
+from .serializers import SurfaceTypeSerializer,TournamentSerializer,TournamentPlayingCategorySerializer,TournamentTypeSerializer
+from .models import SurfaceType,Tournament,TournamentPlayingCategory,TournamentType
 # Create your views here.
 
 class SurfaceTypeView(viewsets.ModelViewSet):

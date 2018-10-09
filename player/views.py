@@ -3,8 +3,8 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 from rest_framework import viewsets
-from models import Country,Address,Player,PlayerRegistration
-from serializers import CountrySerializer, PlayerSerializer, PlayerRegistrationSerializer, AddressSerializer
+from .models import Country,Address,Player,PlayerRegistration
+from .serializers import CountrySerializer, PlayerSerializer, PlayerRegistrationSerializer, AddressSerializer
 # Create your views here.
 
 class CountryView(viewsets.ModelViewSet):
